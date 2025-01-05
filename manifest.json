@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Cookies Manager",
+    "description": "Export and import cookies for the current website.",
+    "version": "1.0",
+    "homepage_url": "https://github.com/anesterdev/cookies-manager",
+    "permissions": [
+      "cookies",
+      "storage",
+      "tabs",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "64": "icons/icon64.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*",
+      "<all_urls>"
+    ]
+  }
+  

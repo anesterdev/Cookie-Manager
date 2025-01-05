@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cookie Export/Import</title>
+    <link rel="stylesheet" href="static/style.css">
+
+    <script src="static/crypto.js" defer></script>
+    <script src="static/popup.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Cookies Manager</h2>
+
+        <div class="buttons">
+            <button id="importBtn">Import Cookies</button>
+            <button id="exportBtn">Export Cookies</button>
+            <button id="clearBtn">Clear Cookies</button>
+        </div>
+
+        <input type="password" id="passwordInput" placeholder="Enter password">
+
+        <p class="err" style="opacity: 0;">.</p>
+        <a href="https://github.com/anesterdev/Cookie-Manager" target="_blank">Github @ anesterdev</a>
+    </div>
+
+    <input type="file" id="fileInput" style="display: none;" />
+</body>
+
+</html>
